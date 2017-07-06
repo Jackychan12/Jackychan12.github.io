@@ -1,0 +1,173 @@
+body
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	
+}
+
+#Holder
+{
+height:auto;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2vh;
+margin-bottom: 2vh;
+}
+
+#Header
+{
+	
+height:9vh;
+background-image:url(../images/another.svg);	
+background-repeat: no-repeat;	
+margin-bottom: auto;
+}
+
+#NavBar
+{
+	height:auto;
+	width:100%;
+	background-color:#1d3182;
+	
+}
+
+#Content
+{
+	height: auto;
+	overflow: auto;
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+#PageHeading{
+	height: auto;
+	flex:1;
+}
+
+#ContentLeft
+{
+	max-width: 28vw;
+       
+	height: auto;
+	float: auto;
+	flex:1;
+	
+}
+
+#ContentRight
+{
+	max-width: 68vw;
+	
+	height: auto;
+	float:auto;
+	flex:1;
+	
+}
+
+#Footer
+{
+	height: 10vh;
+}
+
+h1
+{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+	color:#1D3182;
+
+}
+h2
+{
+	margin:0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: lighter;
+	color:#1D3182;
+}
+h6
+{
+	margin:0px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight:lighter;
+	color:#1D3182;
+	
+	font-size:3ch;
+}
+
+
+.StyleTxtField{
+	border:1px solid #117219;
+	border-radius: 0.6vh;
+	width:20vw;
+	height: 3.5vh;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-left: 0.6vw;
+    flex: auto;	
+}
+
+
+.StyleTxtField:hover
+{
+	border-style: dashed;
+	border-width:0.2vh; 
+	border-color:aqua;
+	
+}
+
+
+
+.button
+{
+	width:100px;
+	height: 30px;
+	background-color: #1d3182;
+	color:white;
+	border-radius: 5px;
+	border-color: #1d3182;
+	box-shadow:0px 2.5px 0.5px 0.25px #0f1828;
+	transition: all 0.2s linear;
+	cursor: pointer;
+	
+ }
+.button:active
+{
+	box-shadow: none;
+}
+
+
+@media (max-width:600px)
+{
+	table
+	{
+		display : grid;
+		grid-template-columns:100%; 
+        grid-gap:1%;
+	}
+	.tr1
+	{
+		display:grid;
+		grid-template-columns:100%;
+		grid-gap:1%;
+	}
+	.tr2
+	{
+		display:grid;
+		grid-template-columns:100%;
+		grid-gap:1%;
+	}
+	#Header
+	{
+	background-position: center;
+		
+	}
+	
+}
+ span
+{
+	color:red;
+}
+
+
